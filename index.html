@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="icon" href="./img/criptoX.ico" type="image/gif" sizes="16x16">
+        <meta name="keywords" content="criptomonedas, bitcoin, ethereum, btc, eth, cotización btc, cotización eth, precio btc, precio eth">   
+    </head>
+    <body>
+        <header>
+            <!-- Mensaje de bienvenida -->
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4 navbar">
+                    <a href="./index.html"><img class="imgIcon" src="./img/criptoX.png" alt="icon"> CriptoX</a>
+                    <span class="text-muted">CriptoX © 2021 | Disclaimer: Los valores son meramente informativos y se basan en la información provista por CoinGecko y DolarSi</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="upTitle">
+            <h1 class="title"> Tabla de criptomonedas</h1>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-secondary btnPeso" type="button"> <img class="imgButton" src="./img/arg.png"> Pesos</button>
+                <button class="btn btn-success btnDolar" type="button"> <img class="imgButton" src="./img/eeuu.png"> Dólares</button>
+              </div>
+        </div>
+
+        <div id="app"></div>
+
+        <div class="box">
+            <p class="textBox">Las cotizaciones se actualizan cada 1 minuto</p>
+        </div>
+
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- JS -->
+        <script src = "./js/main.js" ></script>
+        <!-- Script Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+        <footer class="footer">
+            <div>
+                <div>
+                    <p class="text-muted">Sitios de interés</p>
+                    <ul>
+                        <li><a class="links" href="https://www.facebook.com/groups/BitcoinArg/?_rdc=1&_rdr">Bitcoin Argentina <img src="./img/fb.png"></a></li>
+                        <li><a class="links" href="www.bitcoinargentina.org">Bitcoin Argentina</a></li>
+                        <li><a class="links" href="https://bitcoincore.org/">Bitcoincore</a></li>
+                    </ul>
+                </div>
+                <div class="logoJs">
+                    <p class="text-muted">Realizado con Javascript</p>
+                    <img width="70px" height="auto" src="./img/js.jpeg" alt="logoJs">
+                </div>
+            </div>
+            <div class="footer">
+                <h4>CriptoX © 2021 | Disclaimer: Los valores son meramente informativos y se basan en la información provista por CoinGecko y DolarSi</h4>
+            </div>
+        </footer>
+    </body>
+</html>

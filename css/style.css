@@ -1,0 +1,112 @@
+/* **********************************************************************
+/*                        Universal Selector                            */
+/************************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/************************************************************************/
+/*                               CSS                                    */
+/************************************************************************/
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    color: blanchedalmond;
+}
+
+.imgIcon{
+    width: 100px;
+    height: auto;
+    filter: 100%;
+}
+
+.title{
+    font-family: 'Righteous', cursive;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+
+#app{
+    margin: 20px 100px 20px 100px;
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    background-color: rgb(47, 45, 53);
+    color: blanchedalmond;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(22, 19, 37);
+}
+
+.titleTable{
+    color: blanchedalmond;
+}
+
+.upTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 20px 100px;
+}
+
+.imgButton{
+    width: 35px;
+    height: 20px;
+}
+
+.box{
+    color:blanchedalmond;
+    box-sizing: border-box;
+    margin: 40px 100px 40px 100px;
+    background-color: rgb(47, 45, 53);
+}
+
+.box p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.2px;
+    color: rgb(114, 186, 207);
+}
+
+.footer{
+    margin: 20px 100px 20px 100px;
+}
+
+.footer h4{
+    font-size: 13px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-family: 'Righteous', cursive;
+    color: blanchedalmond;
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div div{
+    flex-direction: column;
+}
+
+.logoJs{
+    align-items: center;
+}
